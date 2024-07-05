@@ -1,0 +1,88 @@
+header {
+    background: linear-gradient(90deg, #aea4e3, #d3ffe8); 
+    height: 100px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+   }
+
+.image {
+    width: 200px;
+    height: 260px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;   
+}
+
+.navigation {
+    list-style-type: none;
+    display: flex;
+    padding: 20px 35px;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.nav_info {
+    text-decoration: none;
+    color: black;
+    margin-right: 60px;
+}
+
+.my_info {
+    margin-left: 50px;
+}
+
+.info {
+    text-decoration: underline;
+}
+
+.button {
+    display: flex;
+    justify-content: space-evenly;   
+}
+
+.button_style {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: .2s linear;
+    background: #0B63F6;
+}
+
+.button_style:hover {
+    box-shadow: 0 0 0 2px white, 0 0 0 4px #3C82F8;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+   }
+
+   footer .links {
+    margin-bottom: 10px;
+   }
+
+   footer .links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+   }
+
+   .copyright {
+    color: rgb(108, 117, 125);
+    font-family: Arial, Helvetica, sans-serif;
+   }
